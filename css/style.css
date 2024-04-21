@@ -1,0 +1,8 @@
+#arrow-left, #arrow-right {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#arrow-left:hover, #arrow-right:hover {
+    background-color: #6c757d;
+}
