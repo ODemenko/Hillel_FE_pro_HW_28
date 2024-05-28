@@ -1,0 +1,12 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+$hover-color: #6c757d;
+
+#arrow-left, #arrow-right {
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: $hover-color;
+    }
+}
